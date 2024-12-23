@@ -46,3 +46,8 @@ The database is implemented using MySQL and supports essential operations for a 
 ## Usage
 1. Ensure that MySQL is installed on your system.
 2. Import these `.ibd` files into the appropriate MySQL database instance.
+
+## Future Enhancements
+- add more table to complete the Commercial Library System
+
+if any request let me know 🤝
