@@ -11,30 +11,37 @@ The database is implemented using MySQL and supports essential operations for a 
 ### `author.ibd`
 - Stores data about authors of books.
 - Fields include:
-  - Author names
-  - IDs
-  - Other relevant details.
+  - Author_ID
+  - fname
+  - lname
+  - midname
+  - DOB "Date Of Birth"
 
 ### `book.ibd`
 - Contains information about the books in the library.
 - Fields include:
-  - Book titles
-  - Authors
-  - ISBN numbers
-  - Publication details.
+  - book_title
+  - publish_year
+  - book_ID
+  - price
+  - language
+  - author_ID
+  - publisher_ID
 
 ### `customer.ibd`
 - Holds data related to library customers.
 - Fields include:
-  - Customer names
-  - IDs
-  - Membership information.
+  - customer_ID
+  - fname
+  - lname
+  - Email
+  - wishlist_ID
 
 ### `cphone_no.ibd`
 - Stores contact numbers for customers.
 - Fields include:
-  - Customer IDs
-  - Associated phone numbers.
+  - customer_ID
+  - phone_No
 
 ## Usage
 1. Ensure that MySQL is installed on your system.
