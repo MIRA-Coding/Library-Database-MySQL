@@ -73,5 +73,6 @@ The database is implemented using MySQL and supports essential operations for a 
 
 ## Future Enhancements
 - add more table to complete the Commercial Library System
+- add the .sql file so you can run it by you own.
 
 if any request let me know 🤝
