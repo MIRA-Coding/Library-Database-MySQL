@@ -42,6 +42,30 @@ The database is implemented using MySQL and supports essential operations for a 
 - Fields include:
   - customer_ID
   - phone_No
+ 
+### `order.ibd`
+- Stores orders of customers.
+- Fields include:
+  - order_ID
+  - order_status
+  - order_date
+  - quantity
+  - customer_ID
+ 
+ ### `orderbooks.ibd`
+- serving as a junction table for a many-to-many relationship between the `book` and `order` tables. 
+- This design is necessary because:
+  - enables efficient **normalization** of the database by avoiding redundancy simplifying the querying
+- Fields include:
+  - book_ID
+  - order_ID
+ 
+### `publisher.ibd`
+- Stores publisher details.
+- Fields include:
+  - publisher_ID
+  - name
+  - contactDetails
 
 ## Usage
 1. Ensure that MySQL is installed on your system.
