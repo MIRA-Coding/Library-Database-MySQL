@@ -66,6 +66,8 @@ The database is implemented using MySQL and supports essential operations for a 
   - publisher_ID
   - name
   - contactDetails
+ 
+### `favorite ` ....
 
 ## Usage
 1. Ensure that MySQL is installed on your system.
